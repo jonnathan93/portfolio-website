@@ -32,6 +32,12 @@ function pageTransitions() {
     element.classList.add('active');
   };
 });
+
+//TOGGLE THEME 
+document.querySelector(".theme-btn").addEventListener("click", () => {
+  document.body.classList.toggle("light-mode");
+})
+
 };
 
 pageTransitions();
