@@ -371,7 +371,7 @@ section {
 
 /* PORTFOLIO SECTION */
 .port-text {
-  padding: 2rem 0;
+  padding: 7rem 0 1rem 0;
   text-align: center;
 }
 
@@ -431,15 +431,15 @@ section {
   transition: all 0.4s ease-in-out;
 }
 .portfolios .portfolio-item .hover-items .icons .icon i {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: var(--color-white);
   margin: 0 1rem;
 }
 .portfolios .portfolio-item .hover-items .icons .icon:hover {
-  background-color: var(--color-white);
+  background-color: var(--color-grey-5);
 }
 .portfolios .portfolio-item .hover-items .icons .icon:hover i {
-  color: var(--color-primary);
+  color: var(--color-white);
 }
 
 .portfolio-item:hover .hover-items {
@@ -802,7 +802,7 @@ section {
     font-size: 4.5rem;
   }
 }
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 1432px) {
   .section {
     padding: 7rem 6rem;
   }
