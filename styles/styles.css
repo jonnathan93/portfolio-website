@@ -552,45 +552,53 @@ section {
 }
 
 /* CONTACT SECTION */
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
 .contact-content-con {
   display: flex;
   padding-top: 3.5rem;
 }
-.contact-content-con .left-contact {
-  flex: 2;
+.contact-content-con .contact {
+  flex: 1;
 }
-.contact-content-con .left-contact h4 {
+.contact-content-con .contact h4 {
   margin-top: 1rem;
   font-size: 2rem;
   text-transform: uppercase;
 }
-.contact-content-con .left-contact p {
+.contact-content-con .contact p {
   margin: 1rem 0;
   line-height: 2rem;
 }
-.contact-content-con .left-contact .contact-info .contact-item {
+.contact-content-con .contact .contact-info .contact-item {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.contact-content-con .left-contact .contact-info .contact-item p {
+.contact-content-con .contact .contact-info .contact-item p {
   margin: 0.3rem 0 !important;
   padding: 0 !important;
 }
-.contact-content-con .left-contact .contact-info .contact-item .icon {
+.contact-content-con .contact .contact-info .contact-item .icon {
   display: grid;
   grid-template-columns: 40px 1fr;
+  padding-top: 1rem;
 }
-.contact-content-con .left-contact .contact-info .contact-item .icon i {
+.contact-content-con .contact .contact-info .contact-item .icon i {
   display: flex;
   align-items: center;
   font-size: 1.3rem;
 }
-.contact-content-con .left-contact .contact-icon {
+.contact-content-con .contact .contact-icon {
   display: flex;
   margin-top: 2rem;
 }
-.contact-content-con .left-contact .contact-icon a {
+.contact-content-con .contact .contact-icon a {
   display: flex;
   align-items: center;
   color: var(--color-white);
@@ -603,13 +611,13 @@ section {
   margin: 0 0.4rem;
   transition: all 0.4s ease-in-out;
 }
-.contact-content-con .left-contact .contact-icon a:hover {
+.contact-content-con .contact .contact-icon a:hover {
   background-color: var(--color-secondary);
 }
-.contact-content-con .left-contact .contact-icon a:hover i {
+.contact-content-con .contact .contact-icon a:hover i {
   color: var(--color-primary);
 }
-.contact-content-con .left-contact .contact-icon a i {
+.contact-content-con .contact .contact-icon a i {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -689,7 +697,7 @@ section {
   font-size: 6.3rem;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
   .about-container {
     grid-template-columns: 1fr;
   }
@@ -727,6 +735,11 @@ section {
   .main-title h2 .bg-text {
     font-size: 3rem;
   }
+  .controls .control {
+    margin: 0.6rem 1rem !important;
+    height: 50px;
+    width: 50px;
+  }
 }
 @media screen and (max-width: 1432px) {
   header {
@@ -749,6 +762,12 @@ section {
     margin-top: 1.5rem;
     margin-left: 0;
   }
+  .center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+  
 }
 @media screen and (max-width: 1070px) {
   .about-container {
@@ -772,6 +791,12 @@ section {
   .main-title h2 .bg-text {
     font-size: 4.5rem;
   }
+  .center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+  
 }
 @media screen and (max-width: 1432px) {
   .section {
@@ -819,6 +844,12 @@ section {
   .controls .control {
     margin: 0.6rem 1rem;
   }
+  .center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+  
 }
 @media screen and (max-width: 700px) {
   .section {
@@ -836,4 +867,10 @@ section {
   .main-title h2 .bg-text {
     font-size: 4rem;
   }
+  .center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+  
 }/*# sourceMappingURL=styles.css.map */

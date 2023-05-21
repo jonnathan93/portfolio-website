@@ -41,6 +41,3 @@ document.querySelector(".theme-btn").addEventListener("click", () => {
 };
 
 pageTransitions();
-
-//SEND EMAIL FUNCTION
-
